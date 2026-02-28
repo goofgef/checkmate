@@ -45,6 +45,7 @@ Then, compile and run the source with **compkit.bat** or **compkit.sh**, dependi
 
 
 compkit compile main.c
+
 compkit run
 
 
@@ -52,7 +53,9 @@ compkit run
 
 
 chmod +x compkit.sh
+
 ./compkit.sh compile main.c
+
 ./compkit.sh run
 
 
@@ -61,8 +64,8 @@ This opens a basic REPL where you can try out the base VM.
 To use it as a library:
 
 
-compkit
-./compkit.sh libdll
+compkit libdll
+
 ./compkit.sh libso
 
 
